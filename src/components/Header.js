@@ -10,11 +10,11 @@ const Header = () => {
         <img src={cookchefLogo} alt="Logo cookchef" />
       </div>
       <ul>
-        <button className="mr-5">
+        <button className="mr-5 btn-secondary">
           <i class="fa-solid fa-basket-shopping mr-5"></i>
           <span>panier</span>
         </button>
-        <button>connexion</button>
+        <button className="btn-primary">connexion</button>
       </ul>
     </header>
   );
